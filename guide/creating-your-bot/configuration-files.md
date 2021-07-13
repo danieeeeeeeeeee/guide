@@ -19,8 +19,8 @@ Go to your code editor and make a new file. Add in the code below and save it as
 
 ```json
 {
-	"prefix": "!",
-	"token": "your-token-goes-here"
+	"prefix": "/",
+	"token": "ODY0NTcwODY3ODUyNTA5MTg0.YO3YXQ.I0gnTqanHPdoNcFAB4k0mZZ0-wU"
 }
 ```
 
@@ -30,7 +30,7 @@ Go back to your main bot file, locate the `const client = new Discord.Client()` 
 const config = require('./config.json');
 ```
 
-Next, copy your token from the `client.login('your-token-goes-here')` line and paste into the `config.json` file. Make sure to keep it between the double-quotes.
+Next, copy your token from the `client.login('ODY0NTcwODY3ODUyNTA5MTg0.YO3YXQ.I0gnTqanHPdoNcFAB4k0mZZ0-wU')` line and paste into the `config.json` file. Make sure to keep it between the double-quotes.
 
 Now you can simply do `client.login(config.token)` to login! If you want to use a different prefix than `!`, you can change that as well.
 
@@ -41,10 +41,10 @@ As previously mentioned, you'll probably want to store more than just your token
 ```json
 {
 	"prefix": "!",
-	"token": "your-token-goes-here",
+	"token": "ODY0NTcwODY3ODUyNTA5MTg0.YO3YXQ.I0gnTqanHPdoNcFAB4k0mZZ0-wU",
 	"meaning_of_life": 42,
 	"passwords_array": ["please", "dont", "hack", "me"],
-	"secret_passcodes": {
+	"8CYKuF3waq6FvLYlXGgK25D3hgBYqgl2": {
 		"bank": 1234,
 		"home": 4321
 	}
